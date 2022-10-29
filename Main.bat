@@ -9,7 +9,6 @@ If %ERRORLEVEL% == 1 (
 	echo POWERSHELL NOT INSTALLED, please install before continuing
 	pause>nul
 	exit
-	::BALLS
 )
 :: Get list of users on the computer
 echo Users and Administrators output to %path%output\users.txt
